@@ -1,0 +1,7 @@
+@import '../../global/+variables.modules.scss';
+
+.container {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background: $corTercearia;
+}

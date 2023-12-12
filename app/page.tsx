@@ -1,8 +1,19 @@
+
+import ContainerConteudo from '../src/components/ContainerConteudo'
+import MenuLateral from '../src/components/MenuLateral'
+import Menu from '../src/components/MenuLateral'
+import Titulo from '../src/components/Titulo'
 import estilos from './paginaPrincipal.module.scss'
 
 
 export default function paginaPrincipal(){
     return (
-        <h1 className={estilos.titulo}>Página inicial</h1>
-    )
+        
+        <>
+        <ContainerConteudo>
+            <MenuLateral/>
+            <Titulo conteudo="Seja bem-vindo!"/>
+        </ContainerConteudo>
+        </>
+        )
 }

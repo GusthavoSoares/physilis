@@ -1,0 +1,8 @@
+@import '../../global/+variables.modules.scss';
+
+.titulo{
+    font-size:$g_fonte;
+    font-family:$fonteTitulo;
+    color:$corSecundaria;
+    font-weight: normal;
+}

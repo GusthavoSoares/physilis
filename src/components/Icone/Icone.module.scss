@@ -1,3 +1,12 @@
-.icone{
-    
-}
+@import '../../global/+variables.modules.scss';
+
+
+.icone {
+    color:$corSecundaria;
+    margin:10%;
+    cursor:pointer;
+    &:hover{
+        transition:1s;
+        color:$corDestaque;
+    }
+    }
