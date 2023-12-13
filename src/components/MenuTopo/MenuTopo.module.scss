@@ -1,0 +1,12 @@
+@import '../../global/+variables.modules.scss';
+
+.menu_topo {
+    background-color: $corQuintenaria;
+    display:grid;
+    grid-template-columns: 25% 75%;
+}
+
+.menu_topo_container{
+    display:flex;
+    text-align: center;
+}

@@ -4,9 +4,10 @@
 //Cores
 $corPrimaria: #E15E13;
 $corSecundaria: #385461;
-$corTercearia:#E03A12;
+$corTercearia: #E03A12;
 $corQuarternaria: #3A3861;
-$corDestaque:#E09D12;
+$corQuintenaria: #E07D1D;
+$corDestaque: #E09D12;
 
 //Tipografia
 $fonteTexto: "Alfacad";
@@ -14,7 +15,10 @@ $fonteTitulo: "Kalnia";
 
 //Medidas de fontes
 $sm_fonte: 0.7rem;
-$md_fonte:1.2rem;
-$g_fonte:3rem;
+$md_fonte: 1.2rem;
+$g_fonte: 2.5rem;
 
 //Medidas de media queries
+$sm_media: 730px;
+$md_media: 1366px;
+$g_media: 1920px;

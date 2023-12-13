@@ -5,8 +5,8 @@ import paginas from './paginas'
 
 export default function MenuLateral() {
     return(<section>
-        <nav className={estilos.menu}>
-                {paginas.map((pagina) => <Link href={pagina.referencia} key={pagina.id} className={estilos.menu_link}><Icone icone={pagina.icone} /></Link>)}
+        <nav className={estilos.menuLateral}>
+                {paginas.map((pagina) => <Link href={pagina.referencia} key={pagina.id}><Icone icone={pagina.icone} /></Link>)}
         </nav>
     </section>
     )
