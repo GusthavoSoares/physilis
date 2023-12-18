@@ -2,11 +2,28 @@
 
 .menu_topo {
     background-color: $corQuintenaria;
-    display:grid;
-    grid-template-columns: 25% 75%;
+    display: grid;
+    grid-template-columns: 75% 25%;
+ 
+    &_esquerda{
+        margin: 0 2%;
+        &_link{
+            text-decoration: none;
+            & > :hover{
+                transition:1s;
+                margin-left:2%;
+                color:$corTercearia;
+            }
+        }
+    }
+    &_direita{
+        width:35%;
+        display:flex;
+        justify-self: right;
+        padding:2%;
+    }
+
 }
 
-.menu_topo_container{
-    display:flex;
-    text-align: center;
-}
+
+

@@ -4,31 +4,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
 .ContainerConteudo_container__8TRIy {
   display: grid;
-  grid-template-columns: 25% 75%;
-  background: #E03A12;
+  grid-template-columns: 20% 80%;
+  background: #df4924;
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Icone/Icone.module.scss ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
 .Icone_icone__qH8JE {
-  color: #385461;
+  color: #2d4550;
   margin: 10%;
   cursor: pointer;
+  font-size: 1rem;
 }
 .Icone_icone__qH8JE:hover {
   transition: 1s;
-  color: #E09D12;
+  color: #df4924;
+  transform: scale(1.1);
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/MenuLateral/Menu.module.scss ***!
   \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
 .Menu_menuLateral__FyqVW {
-  background: #3A3861;
+  background: #e48a31;
   display: grid;
-  width: 25%;
-  padding: 0 5%;
+  grid-template-columns: 50% 50%;
+  align-items: center;
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Titulo/Titulo.module.scss ***!
@@ -37,7 +39,7 @@
 .Titulo_titulo__CRP8t {
   font-size: 2.5rem;
   font-family: "Kalnia";
-  color: #385461;
+  color: #2d4550;
   font-weight: normal;
 }
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -45,14 +47,26 @@
   \****************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
 .MenuTopo_menu_topo__aSJzC {
-  background-color: #E07D1D;
+  background-color: #e48a31;
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 75% 25%;
 }
-
-.MenuTopo_menu_topo_container__txyfv {
+.MenuTopo_menu_topo_esquerda__CJV5P {
+  margin: 0 2%;
+}
+.MenuTopo_menu_topo_esquerda_link__uTjdS {
+  text-decoration: none;
+}
+.MenuTopo_menu_topo_esquerda_link__uTjdS > :hover {
+  transition: 1s;
+  margin-left: 2%;
+  color: #df4924;
+}
+.MenuTopo_menu_topo_direita__C_TL7 {
+  width: 35%;
   display: flex;
-  text-align: center;
+  justify-self: right;
+  padding: 2%;
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/global/geral.module.scss ***!
@@ -62,5 +76,5 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #E15E13;
+  background: #df824d;
 }

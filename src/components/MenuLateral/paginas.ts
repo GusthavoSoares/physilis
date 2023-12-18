@@ -1,8 +1,13 @@
- import {faFile, faIdBadge, faCirclePlay } from '@fortawesome/free-regular-svg-icons'
+ import {faFile, faIdBadge, faCirclePlay, faCircleLeft } from '@fortawesome/free-regular-svg-icons'
  
  
  
  const paginas = [
+    {
+        "id":0,
+        "referencia":'',
+        "icone": faCircleLeft
+    },
     {
         "id":1,
         "referencia": "/videos",

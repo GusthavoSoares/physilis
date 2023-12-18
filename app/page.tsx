@@ -2,10 +2,12 @@ import Titulo from '../src/components/Titulo'
 import estilos from './paginaPrincipal.module.scss'
 
 
-export default function paginaPrincipal(){
+export default function paginaPrincipal() {
     return (
         <>
-            <Titulo conteudo="Seja bem-vindo!"/>
+        <section className={estilos.container_pagina_principal}>
+            <Titulo conteudo="Seja bem-vindo!" />
+        </section>
         </>
-        )
+    )
 }
