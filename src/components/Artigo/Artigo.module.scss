@@ -1,0 +1,16 @@
+@import '../../global/+variables.modules.scss';
+
+
+.artigo_background {
+    background: $corQuintenaria;
+}
+
+.artigo_box {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.artigos_conteudo>* {
+    color: $corSecundaria;
+    font-size: 1.5rem;
+}

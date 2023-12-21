@@ -1,0 +1,17 @@
+@import '../../global/+variables.modules.scss';
+
+.video{
+    background: $corDestaque;
+    display:grid;
+    grid-template-columns: 31% 31% 31%;
+    border-radius: 4%;
+    padding:0 2%;
+    align-items: space-around;
+    justify-content: space-between;
+    &_item{
+        background-color: $corTercearia;
+        margin:2%;
+        padding:1%;
+    }
+}
+
