@@ -4,26 +4,51 @@
     background-color: $corQuintenaria;
     display: grid;
     grid-template-columns: 75% 25%;
- 
-    &_esquerda{
+
+    &_esquerda {
         margin: 0 2%;
-        &_link{
+
+
+        &_link {
             text-decoration: none;
-            & > :hover{
-                transition:1s;
-                margin-left:2%;
-                color:$corTercearia;
+
+            &>h1 {
+                font-size: 3rem;
+                padding-top: 0.75%;
+               
+            }
+
+            &> :hover {
+                transition: 1s;
+                margin-left: 2%;
+                color: $corTercearia;
             }
         }
     }
-    &_direita{
-        width:35%;
-        display:flex;
+
+    &_direita {
+        width: 35%;
+        display: flex;
         justify-self: right;
-        padding:2%;
+        padding: 2%;
+
+        &_link {
+            align-self: center;
+            width: 100%;
+            margin: 10%;
+        }
     }
 
 }
 
+@media screen and (max-width:$sm_media) {
+    .menu_topo_esquerda_link > h1{
+       padding:0;
+       font-size:$g_fonte;
 
-
+    }
+    .menu_topo_direita_link > *{
+    padding:0;    
+    
+    }
+}

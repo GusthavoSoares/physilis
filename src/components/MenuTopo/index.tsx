@@ -13,7 +13,9 @@ export default function MenuTopo() {
                 </Link>
             </section>
             <section className={estilos.menu_topo_direita}>
-                <Icone icone={faComments} />
+                        <Link href="https://api.whatsapp.com/send?phone=555181586311" className={estilos.menu_topo_direita_link}>
+                            <Icone icone={faComments}/>  
+                        </Link>  
             </section>
         </header>
     )

@@ -11,18 +11,42 @@
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Artigo/Artigo.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 @import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
-.Artigo_artigo_background__a5I_a {
+.Artigo_artigo__bm6Jl {
   background: #e48a31;
-}
-
-.Artigo_artigo_box__DhF_p {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 100%;
 }
-
-.Artigo_artigos_conteudo__ivbh4 > * {
+.Artigo_artigo_box__DhF_p {
+  border: 0.2rem solid #df4924;
+  margin: 2%;
+  padding: 1%;
+}
+.Artigo_artigo_botao__ylMal {
+  background: #dd9e1f;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
   color: #2d4550;
+  border-radius: 10%;
+}
+.Artigo_artigo_botao__ylMal:hover {
+  transition: 1s;
+  color: #dd9e1f;
+  background: #2d4550;
   font-size: 1.5rem;
+}
+.Artigo_artigo_textos__xL1_4 {
+  padding: 0.5rem;
+}
+.Artigo_artigo_textos__xL1_4 > h1 {
+  padding: 0;
+  margin: 1rem 0.3rem;
+  background-color: #dd9e1f;
+}
+.Artigo_artigo_textos__xL1_4 > p {
+  padding: 0 1rem;
+  color: #2d4550;
+  font-size: 1.4rem;
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Videos/Videos.module.scss ***!
@@ -39,8 +63,23 @@
 }
 .Videos_video_item__xGhN5 {
   background-color: #df4924;
-  margin: 2%;
+  margin: 3%;
   padding: 1%;
+  width: 90%;
+}
+.Videos_video_item__xGhN5:nth-child(2n+2) {
+  background-color: #e48a31;
+}
+
+@media screen and (max-width: 1366px) {
+  .Videos_video__Stg1l {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .Videos_video__Stg1l {
+    grid-template-columns: 100%;
+  }
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./app/paginaPrincipal.module.scss ***!

@@ -4,13 +4,13 @@
 
 .menuLateral {
     background: $corQuintenaria;
-    display:grid;
-    grid-template-columns: 50% 50%;
-    align-items: center;
+    display: grid;
+    max-width:100%;
+
+    &_wrapper{
+        padding:2%;
+        margin:4%;
+    }
 }
-
-
-
-
 
 

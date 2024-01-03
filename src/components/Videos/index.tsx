@@ -1,6 +1,6 @@
 import Titulo from '../Titulo'
 import estilos from './Videos.module.scss'
-import {videos} from './videos'
+import {videos} from '../../../api/db/videos'
 
 export default function Videos(){
     return(

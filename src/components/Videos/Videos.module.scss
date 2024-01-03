@@ -1,17 +1,36 @@
 @import '../../global/+variables.modules.scss';
 
-.video{
+.video {
     background: $corDestaque;
-    display:grid;
+    display: grid;
     grid-template-columns: 31% 31% 31%;
     border-radius: 4%;
-    padding:0 2%;
+    padding: 0 2%;
     align-items: space-around;
     justify-content: space-between;
-    &_item{
+
+    &_item {
         background-color: $corTercearia;
-        margin:2%;
-        padding:1%;
+        margin: 3%;
+        padding: 1%;
+        width: 90%;
+
+        &:nth-child(2n + 2) {
+            background-color: $corQuintenaria;
+        }
+    }
+
+
+}
+
+@media screen and (max-width:$md_media) {
+    .video {
+        grid-template-columns: 50% 50%;
     }
 }
 
+@media screen and (max-width:$sm_media) {
+    .video {
+        grid-template-columns: 100%;
+    }
+}
