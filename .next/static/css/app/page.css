@@ -1,12 +1,3 @@
-/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Texto/Texto.module.scss ***!
-  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
-@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
-.Texto_texto__eQZ74 {
-  font-size: 1.2rem;
-  font-family: "Alfacad";
-  color: #575585;
-}
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Artigo/Artigo.module.scss ***!
   \************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -21,20 +12,6 @@
   margin: 2%;
   padding: 1%;
 }
-.Artigo_artigo_botao__ylMal {
-  background: #dd9e1f;
-  padding: 0.5rem;
-  font-size: 1.2rem;
-  text-decoration: none;
-  color: #2d4550;
-  border-radius: 10%;
-}
-.Artigo_artigo_botao__ylMal:hover {
-  transition: 1s;
-  color: #dd9e1f;
-  background: #2d4550;
-  font-size: 1.5rem;
-}
 .Artigo_artigo_textos__xL1_4 {
   padding: 0.5rem;
 }
@@ -47,6 +24,33 @@
   padding: 0 1rem;
   color: #2d4550;
   font-size: 1.4rem;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Texto/Texto.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
+.Texto_texto__eQZ74 {
+  font-size: 1.2rem;
+  font-family: "Alfacad";
+  color: #575585;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Botao/Botao.module.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@import url("https://fonts.googleapis.com/css2?family=Afacad&family=Dhurjati&family=Kalnia:wght@100;300&display=swap");
+.Botao_botao__f_dnW {
+  background: #dd9e1f;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #2d4550;
+  border-radius: 10%;
+}
+.Botao_botao__f_dnW:hover {
+  transition: 1s;
+  color: #dd9e1f;
+  background: #2d4550;
+  font-size: 1.5rem;
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Videos/Videos.module.scss ***!

@@ -5,17 +5,19 @@ import estilos from './paginaPrincipal.module.scss'
 import { artigos } from '../api/db/artigos'
 
 export default function paginaPrincipal() {
+    const logado = false;
     return (
+        
         <>
             <section className={estilos.container_pagina_principal}>
                 <article className={estilos.container_alinhamento_central}>
-                    <Titulo conteudo="Vídeos recentes" />
+                    <Titulo conteudo={ !logado ? "Últimos vídeos" : "Continue assistindo"} />
                 </article>
                 <section className={estilos.container_alinhamento_central}>
                     <Videos />
                 </section>
                 <section className={estilos.container_alinhamento_central}>
-                    <Titulo conteudo="Trilhas recomendadas" />
+                    <Titulo conteudo={!logado ? "Artigos recentes" : "Continue lendo" }/>
                     {artigos.map((artigo) => <Artigo tituloArtigo={artigo.tag} textoArtigo={artigo.textoArt} rota={artigo.rota} key={artigo.id} />)}
 
                 </section>

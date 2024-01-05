@@ -5,3 +5,9 @@
     grid-template-columns: 10% 90%;
     background: $corTercearia;
 }
+
+@media screen and (max-width:$md_media) {
+    .container{
+        grid-template-columns: 15% 80%;
+    }
+}

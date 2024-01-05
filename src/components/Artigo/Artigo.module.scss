@@ -11,21 +11,7 @@
         margin: 2%;
         padding:1%;
     }
-    &_botao{
-        background:$corDestaque;
-        padding:0.5rem;
-        font-size:$md_fonte;
-        text-decoration:none;
-        color:$corSecundaria;
-        border-radius:10%;
-        &:hover{
-            transition:1s;
-            color:$corDestaque ;
-            background:$corSecundaria;
-            font-size:1.5rem;
-            
-        }
-    }
+    
     &_textos {
         padding: 0.5rem;
 

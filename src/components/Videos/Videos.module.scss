@@ -4,6 +4,7 @@
     background: $corDestaque;
     display: grid;
     grid-template-columns: 31% 31% 31%;
+    
     border-radius: 4%;
     padding: 0 2%;
     align-items: space-around;
@@ -14,6 +15,7 @@
         margin: 3%;
         padding: 1%;
         width: 90%;
+        
 
         &:nth-child(2n + 2) {
             background-color: $corQuintenaria;

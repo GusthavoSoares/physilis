@@ -13,4 +13,12 @@
     }
 }
 
+@media screen and (max-width:$sm_media){
+    .menuLateral > *{
+        font-size:2rem;
+        padding:0;
+        margin:0;
+    }
+}
+
 

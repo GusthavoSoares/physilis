@@ -7,6 +7,12 @@
   grid-template-columns: 10% 90%;
   background: #df4924;
 }
+
+@media screen and (max-width: 1366px) {
+  .ContainerConteudo_container__8TRIy {
+    grid-template-columns: 15% 80%;
+  }
+}
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Icone/Icone.module.scss ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
@@ -34,6 +40,14 @@
 .Menu_menuLateral_wrapper__OE_ju {
   padding: 2%;
   margin: 4%;
+}
+
+@media screen and (max-width: 750px) {
+  .Menu_menuLateral__FyqVW > * {
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+  }
 }
 /*!************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[11].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[11].oneOf[9].use[5]!./src/components/Titulo/Titulo.module.scss ***!
