@@ -1,8 +1,8 @@
 import SourceItem from "../../src/components/SourceItem";
-import Texto from "../../src/components/Texto";
+
 
 export default function paginaVideos() {
     return (
-       <SourceItem/>
+        <SourceItem videoUrl="https://www.w3schools.com/html/mov_bbb.mp4" />
     )
 }
