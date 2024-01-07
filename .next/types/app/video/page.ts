@@ -1,4 +1,4 @@
-// File: /home/gusthavo/projetos/physilis/app/video/page.tsx
+// File: C:\Users\Gusthavo Soares\Desktop\Main\Projetos\physilis\app\video\page.tsx
 import * as entry from '../../../../app/video/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

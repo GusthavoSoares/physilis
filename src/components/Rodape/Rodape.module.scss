@@ -1,0 +1,14 @@
+@import "../../global/+variables.modules.scss";
+
+.rodape {
+    background: $corQuintenaria;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+
+    &>p {
+        text-align: center;
+        font-size: 1.2rem;
+        color: $corSecundaria;
+    }
+}
