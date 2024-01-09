@@ -1,0 +1,39 @@
+@import "../../global/+variables.modules.scss";
+
+.box{
+    display: grid;
+    grid-template-columns: 100%;
+    padding:0 2%;
+    justify-content: center;
+    align-items: center;
+}
+.formulario {
+   display:flex;
+   align-items: center;
+   flex-direction: column;
+    padding: 0 2%;
+    width: 100%;
+
+    &_login {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        width:90%;
+
+        &>*:first-child:hover {
+            color: $corDestaque;
+        }
+    }
+
+    &_senha {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        width:90%;
+
+        &>*:first-child:hover {
+            color: $corDestaque;
+        }
+        & > input{
+            padding:0 2%;
+        }
+    }
+}

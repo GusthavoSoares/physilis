@@ -5,7 +5,7 @@ import estilos from './paginaPrincipal.module.scss'
 import { artigos } from '../api/db/artigos'
 
 export default function paginaPrincipal() {
-    const logado = false;
+    const logado = true;
     return (
 
         <>
